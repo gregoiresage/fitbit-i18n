@@ -1,0 +1,16 @@
+{
+  "name": "fitbit-i18n",
+  "version": "0.1.0",
+  "description": "Simple translation module for fitbit apps",
+  "main": "index.js",
+  "keywords": [
+    "fitbit",
+    "i18n"
+  ],
+  "author": "Grégoire Sage",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gregoiresage/fitbit-i18n"
+  }
+}

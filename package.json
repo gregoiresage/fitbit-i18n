@@ -1,8 +1,22 @@
 {
   "name": "fitbit-i18n",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Simple translation module for fitbit apps",
   "main": "index.js",
+  "scripts": {
+    "build": "babel source --out-dir .",
+    "prepublish": "npm run build"
+  },
+  "babel": {
+    "presets": [
+      [
+        "es2015",
+        {
+          "modules": false
+        }
+      ]
+    ]
+  },
   "keywords": [
     "fitbitdev"
   ],
@@ -11,5 +25,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/gregoiresage/fitbit-i18n"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
   }
 }
